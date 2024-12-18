@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Haskell code arising from lazy evaluation. The `filterEven` function, designed to filter out odd numbers, may not terminate if provided with an infinite list containing at least one odd number. The solution showcases how to modify the function to address this issue.
